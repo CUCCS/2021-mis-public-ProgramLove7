@@ -146,9 +146,9 @@
 
     # 若驱动未加载，则下载驱动
     # opkg find 命令可以快速查找可能包含指定芯片名称的驱动程序包
-    opkg find kmod-* | grep 2870
+    opkg find kmod-* | grep rt8187
     # 下载对应驱动
-    opkg install kmod-rt2800-usb
+    opkg install kmod-rtl8187
     ```
 
     ![ap](img/ap1.png)
